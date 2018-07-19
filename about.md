@@ -11,4 +11,4 @@ permalink: /about/
 
 **GitHub:** [link](https://github.com/bodgergely)
 
-**LinkedIn:** [link](www.linkedin.com/in/gergely-bod-656a4532)
+**LinkedIn:** [link](https://linkedin.com/in/gergely-bod-656a4532)
