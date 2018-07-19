@@ -85,7 +85,7 @@ https://kernelnewbies.org/ABI
 // Callback to be installed as syscall to change the process credentials    
 
 {% highlight c %}
-#define SYS_CALL_TABLE_BASE 0x8000e348       // sys_call_table
+#define SYS_CALL_TABLE_BASE  0x8000e348       // sys_call_table
 #define CRED_PREPARE_CRED    0x8003f44c      // prepare_creds
 #define CRED_COMMIT_CRED     0x8003f56c      // commit_creds
 
@@ -166,8 +166,8 @@ The Linux kernel uses ABI that expects that.
 
 
 // modify the below based on what you see in /proc/kallsyms
-#define SYS_CALL_TABLE_BASE 0x8000e348      // sys_call_table
-#define NR_SYS_UPPER_CASE	223             // the unused syscall number we hijack
+#define SYS_CALL_TABLE_BASE  0x8000e348      // sys_call_table
+#define NR_SYS_UPPER_CASE	 223             // the unused syscall number we hijack
 
 #define CRED_PREPARE_CRED    0x8003f44c      // prepare_creds
 #define CRED_COMMIT_CRED     0x8003f56c      // commit_creds
