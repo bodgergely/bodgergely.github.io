@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Buggy linux syscall exploitation"
+title:  "How to exploit the lack of __user in the Linux kernel"
 date:   2018-07-19 02:36:41 +0100
 categories: jekyll update
 ---
