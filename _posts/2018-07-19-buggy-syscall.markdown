@@ -67,8 +67,11 @@ We simply clone the current credentials then we overwrite the new cred structure
 2. Install our userspace callback function into the 223 syscall entry. The entry 223 is unused - this is where the lower_to_upper syscall is stored originally.
 This is done by supplying to the buggy syscall:
     - destination address: 
-        sys_call_table + 223*sizeof(void*)
+
+        `sys_call_table + 223 * sizeof(void*)`
+
     - source address:
+
         our remapped callback's address (NOTICE: remap to an address which will result in an address of the callback so that none of the bytes of the address falls into the lowercase value range as the buggy syscall will try to make it uppercase value.)
 
 3. Trigger the syscall 223 again - now are injected callback will be executed. 
