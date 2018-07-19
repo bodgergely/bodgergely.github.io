@@ -81,11 +81,9 @@ This is done by supplying to the buggy syscall:
 
 ### The new userspace 'syscall'
 
-On x86 linux kernel uses registers to pass parameters to function if it can so we need to repsect that when using internal kernel functions.
+On x86 linux kernel uses registers to pass parameters to function if it can so we need to repsect that when interfacing with internal kernel functions.
 https://kernelnewbies.org/ABI
 
-
-// Callback to be installed as syscall to change the process credentials    
 
 {% highlight c %}
 #define SYS_CALL_TABLE_BASE  0x8000e348       // sys_call_table
