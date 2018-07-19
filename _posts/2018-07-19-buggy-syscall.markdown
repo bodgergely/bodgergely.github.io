@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to exploit the lack of __user in the Linux kernel"
+title:  "How to exploit the lack of __user space check in the Linux kernel"
 date:   2018-07-19 02:36:41 +0100
 categories: jekyll update
 ---
@@ -8,6 +8,8 @@ categories: jekyll update
 tags: #pwnable #rookiss #kernel #kernelexploit #syscall #cred
 
 ## Challenge
+
+**Linux system call with no __user address space checking.**
 
 [pwnable-kr](pwnable.kr) - Rookiss 'syscall' challange.
 
