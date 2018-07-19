@@ -9,7 +9,7 @@ tags: #pwnable #rookiss #kernel #kernelexploit #syscall #cred
 
 ## Challenge
 
-**Linux system call with no __user address space checking.**
+**Linux system call without proper  __user address space checking.**
 
 [pwnable-kr](pwnable.kr) - Rookiss 'syscall' challange.
 
