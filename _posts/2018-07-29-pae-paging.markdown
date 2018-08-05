@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paging - Memory mapping on x86"
+title:  "PAE Paging - Memory mapping on x86"
 date:   2018-07-19 02:36:41 +0100
 categories: jekyll update
 ---
